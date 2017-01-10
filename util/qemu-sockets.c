@@ -30,7 +30,8 @@
 # define AI_ADDRCONFIG 0
 #endif
 
-static const int on=1, off=0;
+//static const int on=1, off=0;
+static const int off=0;
 
 /* used temporarily until all users are converted to QemuOpts */
 QemuOptsList socket_optslist = {

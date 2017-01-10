@@ -37,7 +37,7 @@ static const uint8_t special_ethaddr[ETH_ALEN] = {
     0x52, 0x55, 0x00, 0x00, 0x00, 0x00
 };
 
-static const uint8_t zero_ethaddr[ETH_ALEN] = { 0, 0, 0, 0, 0, 0 };
+//static const uint8_t zero_ethaddr[ETH_ALEN] = { 0, 0, 0, 0, 0, 0 };
 
 u_int curtime;
 

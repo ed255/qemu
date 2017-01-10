@@ -55,6 +55,7 @@ static NetClientInfo net_ne2000_isa_info = {
     .cleanup = isa_ne2000_cleanup,
 };
 
+/*
 static const VMStateDescription vmstate_isa_ne2000 = {
     .name = "ne2000",
     .version_id = 2,
@@ -65,6 +66,7 @@ static const VMStateDescription vmstate_isa_ne2000 = {
         VMSTATE_END_OF_LIST()
     }
 };
+*/
 
 static void isa_ne2000_realizefn(DeviceState *dev, Error **errp)
 {
